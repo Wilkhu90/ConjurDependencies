@@ -1,4 +1,5 @@
 # ConjurDependencies
+```ruby
 sudo yum groupinstall 'Development Tools'
 sudo yum install gcc-c++ patch readline readline-devel zlib zlib-devel
 sudo yum install libyaml-devel libffi-devel openssl-devel make
@@ -19,3 +20,4 @@ yum install postgresql-devel
 sudo yum install yum-cron
 sudo yum install openldap-clients
 sudo yum -y install tzdata
+```
