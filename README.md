@@ -21,4 +21,8 @@ sudo yum install -y postgresql-server
 sudo yum install -y yum-cron
 sudo yum install -y openldap-clients
 sudo yum install -y tzdata
+sudo yum install -y rails
 ```
+# Then, clone conjur, add config/database.yml, install postgres database gem install pg, gem pristine --all
+
+# Also, gem install bundler, bundle --without test development website and rails server
